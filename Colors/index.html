@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' type='text/css' href='color.css'>
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+
+<body>
+
+<!--<img id = "hell" src = 'http://media.hollywood.com/images/l/sesamestreetmusic.jpg'>	-->
+<p id = "mode">Current Setting: Monochrome</p>
+<p id = "tut"> Press SET to change picture color</p>
+<p id = "dir"> Press the color swatch below to choose a color</p>
+<p id = "tut2"> The buttons on the heading choose the setting</p>
+  <h1 id ='a' align="center">Color Matcher</h1>
+  <div id = "rectangle1" title= "A Color!">
+<input type="color" id="aa" tabindex=-1 class="hidden"> 
+</div>
+  <div id = "rectangle2" title= "A Color!">
+	<input type="color" id="b" tabindex=-1 class="hidden"> 
+</div>
+  <div id = "rectangle3" title= "A Color!">
+<input type="color" id="c" tabindex=-1 class="hidden"> 
+</div>
+  <div id = "rectangle4" title= "A Color!">
+<input type="color" id="d" tabindex=-1 class="hidden"> 
+</div>
+  <div id = "rectangle5" title= "A Color!">
+<input type="color" id="e" tabindex=-1 class="hidden"> 
+</div>
+  <img id = "change"  src = 'wood.jpg'>
+  <canvas id="myCanvas" width="504" height="504" style="border:1px solid #d3d3d3;">
+    
+  </canvas>
+
+  
+  <div id = "z"  >
+<input class= 'button' type="button" id="mom" value="Monochrome">
+<input class= 'button' type="button" id="ana" value="Analogous">
+<input class= 'button' type="button" id="set" value="SET">
+<input class= 'button' type="button" id="free" value="Free">
+</div>
+<p id ="info"> </p>
+
+
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+<script src='color.js'></script>
+</body>
+
+</html>
