@@ -14,7 +14,7 @@ Otherwise, this works best on microsoft edg(opened directly from the folder wiht
 
 How to use:
 
-On the header bar thing, there are three buttons (monochrome,free,analohous) that choose the color scheme. 
+On the header bar, there are three buttons (monochrome,free,analohous) that choose the color scheme. 
 
 "Free" gives you 5 swatches that let you choose any 5 colors you want in the picture.
 
@@ -26,13 +26,12 @@ they won't actually be used in the picture. After pressing set, the top and bott
 
 
 Then, press the SET button on the header bar to change the color of the picture. For the analogous setting, pressing SET will use the middle 
-color and then calculate the 2 colors analogous to it (like if you choose blue the other two colors will be green-blue and maybe a darker blue). 
-So, whatever was chosen for the top and bottom swatches will be replaced with the new analogous ones. 
+color and then calculate the 2 colors analogous to it (for example, if you choose blue the other two colors will be green-blue and maybe a darker blue). 
+So, anything chosen for the top and bottom swatches will be replaced with the new analogous ones. 
 
 You can also hover your mouse over the swatches to see their current color in rgb form/hex form.
 
-Also, analogous doesnt work with black, gray, or white because they aren't hues, they're just shades of lighting, 
-that's why they're not on a color wheel.
+Also, analogous doesnt work with black, gray, or white because they aren't true colors/hues, they're just shades of lighting without saturation. This happens to be why they aren't on a color wheel.
 
 
 
