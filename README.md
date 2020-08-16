@@ -1,5 +1,5 @@
 # Color-Changer
-
+hosted at https://rmz38.github.io/Color-Changer/
 ### How to Run:
   
 If you want to run it on chrome opening directly from the folder (without a server) you need to do this:
@@ -12,7 +12,7 @@ Execute the following command:
 chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
 
 
-Otherwise, this works best on microsoft edg(opened directly from the folder wihtout a server) or hosted on a server(such as xampp).
+Otherwise, this works best on microsoft edge(opened directly from the folder wihtout a server) or hosted on a server(such as xampp).
 
 
 
